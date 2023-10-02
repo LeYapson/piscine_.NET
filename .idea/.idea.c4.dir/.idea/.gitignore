@@ -1,0 +1,26 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/.idea.c4.iml
+/projectSettingsUpdater.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+bin/
+bin/*
+echo ".DS_Store" >> ~/.gitignore_global
+echo "._.DS_Store" >> ~/.gitignore_global
+echo "**/.DS_Store" >> ~/.gitignore_global
+echo "**/._.DS_Store" >> ~/.gitignore_global
+echo "*node_modules/*" >> ~/.gitignore_global
+echo "*.DS_Store" >> ~/.gitignore_global
+echo "*.dll" >> ~/.gitignore_global
+echo "*.exe" >> ~/.gitignore_global
+echo "*.war" >> ~/.gitignore_global
+echo "*.jar" >> ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global  
