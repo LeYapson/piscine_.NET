@@ -7,7 +7,7 @@ namespace TestCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CSharpDiscovery.Quest01.SetPiValue_Exercice.SetPiValue(0));
+            Console.WriteLine(SpellItBackwards_Exercice.SpellItBackward("helloworld"));
         }
     }
 }
