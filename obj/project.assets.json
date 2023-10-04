@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/leyapson/RiderProjects/c4/CSharpDiscovery.csproj",
-      "projectName": "CSharpDiscovery",
-      "projectPath": "/home/leyapson/RiderProjects/c4/CSharpDiscovery.csproj",
+      "projectUniqueName": "/home/leyapson/RiderProjects/c4/c4.csproj",
+      "projectName": "c4",
+      "projectPath": "/home/leyapson/RiderProjects/c4/c4.csproj",
       "packagesPath": "/home/leyapson/.nuget/packages/",
       "outputPath": "/home/leyapson/RiderProjects/c4/obj/",
       "projectStyle": "PackageReference",
