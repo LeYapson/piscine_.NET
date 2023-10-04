@@ -4,7 +4,7 @@ namespace CSharpDiscovery.Quest01
     {
         public static string Capitalize(string str)
         {
-            return "HELLOWORLD";
+            return str.ToUpper();
         }
     }
 }
