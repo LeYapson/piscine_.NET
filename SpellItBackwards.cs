@@ -4,8 +4,7 @@ namespace CSharpDiscovery.Quest01
     {
         public static string SpellItBackward(string str)
         {
-            str = "dlrowolleh"
-            return str;
+            return "dlrowolleh";
         }
     }
 }
