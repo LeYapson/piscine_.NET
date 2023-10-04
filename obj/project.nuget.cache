@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DFQepwYwGSMNph6s+K6KidtH+hWeqItahAW+nspLZr17mU5a6Hev1Vd/m5uqzU537ExgEPcYz0HQidTwckcflg==",
+  "dgSpecHash": "MjQL3I9mGXAlB00uGneJqnEsXyyfjnX7ee2ckX9oeYy0HEgroFv80EDefvC21sTGrpkMgM8KkKhFWAfEqOdoew==",
   "success": true,
-  "projectFilePath": "/home/leyapson/RiderProjects/c4/c4.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/leyapson/RiderProjects/c4/CSharpDiscovery.csproj",
+  "expectedPackageFiles": [
+    "/home/leyapson/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.22/microsoft.netcore.app.host.linux-x64.6.0.22.nupkg.sha512"
+  ],
   "logs": []
 }
