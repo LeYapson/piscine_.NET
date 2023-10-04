@@ -4,7 +4,7 @@ namespace CSharpDiscovery.Quest01
     {
         public static int GetStringSize(string str)
         {
-            if (str == "")
+            if (str == null)
             {
                 return 0;
                 
