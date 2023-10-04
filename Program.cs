@@ -5,10 +5,9 @@ namespace TestCSharp
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] str)
         {
-            var inputTab = new int[] { 1, 32, 7, 33 };
-            Console.WriteLine("{0}", string.Join(" ", DoubleArrayForEvenInteger_Exercice.DoubleArrayForEvenInteger(inputTab)));
+            Console.WriteLine(GetStringSize_Exercice.GetStringSize("helloworld"));
         }
     }
 }
