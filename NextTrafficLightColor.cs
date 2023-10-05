@@ -8,14 +8,14 @@ namespace CSharpDiscovery.Quest01
         {
             switch (currentColor)
             {
-                case TrafficLightColor.Green:
-                    return TrafficLightColor.Orange;
-                case TrafficLightColor.Orange:
-                    return TrafficLightColor.Red;
-                case TrafficLightColor.Red:
-                    return TrafficLightColor.Green;
+                case Models.TrafficLightColor.Green:
+                    return Models.TrafficLightColor.Orange;
+                case Models.TrafficLightColor.Orange:
+                    return Models.TrafficLightColor.Red;
+                case Models.TrafficLightColor.Red:
+                    return Models.TrafficLightColor.Green;
                 default:
-                    return TrafficLightColor.None;
+                    return Models.TrafficLightColor.None;
             }
             
         }
