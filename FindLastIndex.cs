@@ -6,6 +6,10 @@ namespace CSharpDiscovery.Quest02
         {
             for (int i = tab.Length - 1; i >= 0; i--)
             {
+                if (tab == null)
+                {
+                    return null;
+                }
                 if (tab[i] == a)
                 {
                     return i;
