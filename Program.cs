@@ -1,15 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
 using CSharpDiscovery.Quest02;
+
 namespace TestCSharp
 {
     class Program
     {
-        static void Main(string[] str)
+        static void Main(string[] args)
         {
-            var tab = new int[] { 20, 35, 12, 56, 35, 76 };
-            Console.WriteLine(FindLastIndex_Exercice.FindLastIndex(tab, 12));
-            Console.WriteLine(FindLastIndex_Exercice.FindLastIndex(tab, 35));
-            Console.WriteLine(FindLastIndex_Exercice.FindLastIndex(tab, 66));
+            var people = new HashSet<string> { "Arnaud", "Marie", "Alexandre", "Audrey", "Adrien", "Mathilde", "Théophile", "Hanako" };
+            var draw = SecretSanta_Exercice.SecretSantaDraw(people);
+
+            foreach (KeyValuePair<string, string> pair in draw) {
+                Console.WriteLine("{0} is offering to {1}", pair.Key, pair.Value);
+            }
         }
     }
 }
