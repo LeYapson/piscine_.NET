@@ -7,7 +7,7 @@ namespace TestCSharp
     {
         static void Main(string[] str)
         {
-            PointOfInterest PorteCailhau = new HistoricalMonument(44.838336, -0.569446, "Porte Cailhau", 1493);
+            PointOfInterest PorteCailhau = new HistoricalMonument("Porte Cailhau", 44.838336, -0.569446, 1493);
             Console.WriteLine(PorteCailhau.ToString());
         }
     }

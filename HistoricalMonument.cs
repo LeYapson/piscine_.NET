@@ -11,8 +11,8 @@ namespace CSharpDiscovery.Quest03
         {
         }
 
-        // Constructor with Latitude, Longitude, Name, and BuildYear
-        public HistoricalMonument(double latitude, double longitude, string name, int buildYear) 
+        // Constructor with Name, Latitude, Longitude, and BuildYear
+        public HistoricalMonument(string name, double latitude, double longitude, int buildYear) 
             : base(name, latitude, longitude)
         {
             BuildYear = buildYear;
