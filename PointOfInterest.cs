@@ -34,4 +34,10 @@ public class PointOfInterest
         string encodedName = WebUtility.UrlEncode(Name);
         return string.Format(GoogleMapsUrlTemplate, encodedName, Latitude, Longitude);
     }
+    
+    // Override the ToString method
+    public override string ToString()
+    {
+        return $"{Name} (Lat={Latitude}, Long={Longitude})";
+    }
 }
