@@ -25,4 +25,10 @@ public class PointOfInterest
         Latitude = latitude;
         Longitude = longitude;
     }
+    
+    // Method to get Google Maps URL
+    public string GetGoogleMapsUrl()
+    {
+        return string.Format(GoogleMapsUrlTemplate, Name, Latitude, Longitude);
+    }
 }
