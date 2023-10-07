@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/leyapson/.nuget/packages/": {}
+    "C:\\Users\\theau\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/leyapson/RiderProjects/c4/CSharpDiscovery.csproj",
+      "projectUniqueName": "C:\\Users\\theau\\RiderProjects\\c6\\CSharpDiscovery.csproj",
       "projectName": "CSharpDiscovery",
-      "projectPath": "/home/leyapson/RiderProjects/c4/CSharpDiscovery.csproj",
-      "packagesPath": "/home/leyapson/.nuget/packages/",
-      "outputPath": "/home/leyapson/RiderProjects/c4/obj/",
+      "projectPath": "C:\\Users\\theau\\RiderProjects\\c6\\CSharpDiscovery.csproj",
+      "packagesPath": "C:\\Users\\theau\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\theau\\RiderProjects\\c6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/leyapson/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\theau\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -54,18 +54,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[6.0.22, 6.0.22]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
       }
     }
   }
