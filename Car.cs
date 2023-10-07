@@ -21,5 +21,30 @@ public class Car : Vehicule
     {
         return $"{Color} {Brand} {Model}";
     }
-    
+
+    public override void Accelerate(int Speed)
+    {
+        if (CurrentSpeed + Speed >= 180)
+        {
+            CurrentSpeed = 180;
+        }
+        else
+        {
+            CurrentSpeed += Speed;
+        }
+        
+    }
+
+    public override void Brake(int BrakePower)
+    {
+        if (CurrentSpeed - BrakePower <= 0)
+        {
+            CurrentSpeed = 0;
+        }
+        else
+        {
+            CurrentSpeed -= BrakePower;
+        }
+        
+    }
 }
