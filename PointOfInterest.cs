@@ -1,4 +1,6 @@
-﻿namespace CSharpDiscovery.Quest03;
+﻿using System.Net;
+
+namespace CSharpDiscovery.Quest03;
 
 public class PointOfInterest
 {
@@ -29,6 +31,7 @@ public class PointOfInterest
     // Method to get Google Maps URL
     public string GetGoogleMapsUrl()
     {
-        return string.Format(GoogleMapsUrlTemplate, Name, Latitude, Longitude);
+        string encodedName = WebUtility.UrlEncode(Name);
+        return string.Format(GoogleMapsUrlTemplate, encodedName, Latitude, Longitude);
     }
 }
