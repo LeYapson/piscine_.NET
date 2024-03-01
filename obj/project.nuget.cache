@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "0e+SyxVOax3/QqfQGQX3pTs3ynEWKymAAt257DfgMC/+qzJ3A3Fx9Nnw68FM/DzZIuqDCkHOtHL3CrWaMA/+Ow==",
+  "dgSpecHash": "xCFMZ7y/vI7LQg2Gl1FaZWRxV21nVzKTooUyWLIXGUV3ZOeTB08tAVk6D5aONZlL1T2PM3hV5wTnRPES0JyAVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\theau\\RiderProjects\\c6\\CSharpDiscovery.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\theau\\Documents\\ynov_B2\\piscine_.NET\\CSharpDiscovery.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\theau\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\theau\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\theau\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\theau\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
